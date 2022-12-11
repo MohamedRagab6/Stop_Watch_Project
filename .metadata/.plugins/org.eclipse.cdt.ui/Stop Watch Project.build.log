@@ -1,0 +1,19 @@
+17:12:16 **** Build of configuration Debug for project Stop Watch Project ****
+make all 
+Building file: ../Stop_Watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Stop_Watch.d" -MT"Stop_Watch.o" -c -o "Stop_Watch.o" "../Stop_Watch.c"
+In file included from ../Stop_Watch.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Stop_Watch.c
+ 
+Building target: Stop Watch Project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Stop Watch Project.map -mmcu=atmega16 -o "Stop Watch Project.elf"  ./Stop_Watch.o   
+avr-gcc.exe: Watch: No such file or directory
+avr-gcc.exe: Project.map: No such file or directory
+make: *** [Stop Watch Project.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:12:17 Build Failed. 1 errors, 1 warnings. (took 322ms)
+
